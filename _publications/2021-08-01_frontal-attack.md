@@ -3,7 +3,7 @@ title: "Frontal Attack: Leaking Control-​Flow in SGX via the CPU Frontend"
 collection: publications
 permalink: /publication/2021-08_frontal-attack
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2021-08
+date: 2021-08-01
 venue: 'USENIX Security'
 paperurl: 'https://www.usenix.org/system/files/sec21-puddu.pdf'
 citation: 'Ivan Puddu, Moritz Schneider, Miro Haller, Srdjan Čapkun. (2021). &quot;Frontal Attack: Leaking Control-​Flow in SGX via the CPU Frontend&quot; <i>USENIX Security 2021</i>.'
