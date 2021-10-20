@@ -1,7 +1,7 @@
 ---
 title: "Frontal Attack: Leaking Control-​Flow in SGX via the CPU Frontend"
 collection: publications
-permalink: /publication/2021-08_frontal-attack
+permalink: /publication/2021/08/frontal-attack
 excerpt: 'We introduce a timing side-channel attack in the Frontend of Intel CPU processors, which uncovers measurable differences between instructions that only differ in their adjacent instructions and virtual addresses.'
 date: 2021-08-01
 venue: 'USENIX Security'
