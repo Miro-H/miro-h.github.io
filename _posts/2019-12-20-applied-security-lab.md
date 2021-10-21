@@ -1,15 +1,15 @@
 ---
 title: 'Applied Security Lab'
 date: 2019-12-20
-permalink: /posts/2021/12/Applied-Security-Lab/
+permalink: /posts/2019/12/Applied-Security-Lab/
 tags:
-  - risk-analysis
+  - risk analysis
   - certificates
   - automation
   - pentesting
 ---
 
-In this course, our task was to implement a typical IT system based on a set of functional and security requirements in a team of four people. For this purpose, we needed to design a certificate authority for a fictional company while analsing the security and take appropriate measures. Furthermore, we needed to introduce two backdoors in the system. In the middle of the semester, we switched to analyze another team's system and assess their security. This, of course, included finding their backdoors as well as any other vulnerabilities.
+In this course, our task was to implement a typical IT system based on a set of functional and security requirements in a team of four people. For this purpose, we needed to design a certificate authority for a fictional company while analyzing the security and take appropriate measures. Furthermore, we needed to introduce two backdoors in the system. In the middle of the semester, we switched to analyze another team's system and assess their security. This, of course, included finding their backdoors as well as any other vulnerabilities.
 
 ## System Overview
 
