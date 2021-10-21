@@ -3,12 +3,12 @@ title: "Optimizing Elligator 1 on Curve1174"
 collection: talks
 type: "Talk"
 permalink: /talks/2021/07/Elligator/
-venue: "Online"
+venue: "ETH Zurich"
 date: 2021-07-05
-location: "Online, Switzerland"
+location: "Online"
 ---
 
-At the end of the Advanced Systems Lab, we presented a brief overview on the optimizations for Elligator 1, described in [this blog post](/posts/2021/07/Elligator-1/)
+At the end of the Advanced Systems Lab, we presented a brief overview on our optimizations for Elligator 1, described in [this blog post](/posts/2021/07/Elligator-1/)
 
 ## Highlights
 
