@@ -11,7 +11,7 @@ title                    : "Miro Haller"
 title_separator          : "-"
 name                     : &name "Miro Haller"
 description              : &description "Cyber security student @ ETH. CTF player. Team coach of the Swiss National Hacking team."
-url                      : https://miro-h.github.io
+url                      : https://www.mirohaller.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Miro-H/miro-h.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
