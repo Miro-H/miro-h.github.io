@@ -56,15 +56,29 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$code-background-color-dark : #1f2833;
+$text-color                 : #0b0c10;
+$border-color               : #66fcf1;
 
+// $body-color                 : #fff;
+// $background-color           : #fff;
+// $code-background-color      : #fafafa;
+// $code-background-color-dark : $light-gray;
+// $text-color                 : $dark-gray;
+// $border-color               : $lighter-gray;
+
+$primary-color              : #0b0c10;
+$success-color              : #66fcf1;
+$warning-color              : #c5c6c7;
+$danger-color               : #ee5f5b;
+$info-color                 : #45a29e;
+/*
 $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
+*/
 
 /* brands */
 $behance-color              : #1769FF;
@@ -90,11 +104,17 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : #66fcf1;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+
+// $link-color                 : $info-color;
+// $link-color-hover           : mix(#000, $link-color, 25%);
+// $link-color-visited         : mix(#fff, $link-color, 25%);
+// $masthead-link-color        : $primary-color;
+// $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
 /*
