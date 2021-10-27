@@ -267,7 +267,7 @@
 
       &:hover {
         color: $masthead-link-color-hover;
-        background: mix(#fff, $body-color, 75%);
+        background: mix(#000, $background-color, 75%);
       }
     }
 
@@ -405,8 +405,8 @@
     border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: #000;
-      background: $lighter-gray;
+      color: $text-color;
+      background: $background-color;
     }
   }
 
