@@ -10,11 +10,11 @@ redirect_from:
 {% include base_path %}
 
 ## Research Interests
-The intersection of applied cryptography, system security, and privacy. In particular, privacy-preserving computation, trusted execution environments, anti-censorship measures, anonymous communication, and usable security.
+My research interests are in the intersection of applied cryptography, system security, and privacy. I am excited about using mathematical tools such as lattices to analyze and break existing systems, identifying the root problems that cause cryptography to fail in practice, and design systems to address these issues.
 
 ## Education
-- MSc Cyber Security, ETH Zurich & EPFL 2022 (expected)
-- BSc Computer Science, ETH Zurich 2020
+- MSc ETH Zurich &ndash; EPF Lausanne in Computer Science Major in Cyber Security (short: MSc ETH EPF CS)
+- BSc ETH Zurich in Computer Science (short: BSc ETH CS)
 
 ## Professional experience
 - Research assisstant at the [Privacy Preserving Systems Lab](https://pps-lab.com/) of ETH Zurich (ongoing)
@@ -51,4 +51,4 @@ German (native), English (fluent), French (elementary)
 - [Swiss Hacking Challenge](https://www.swiss-hacking-challenge.ch/)
   - I coach and promote young Swiss cyber security talents. The SHC provides a platform for them to meet like-minded people and helps them to follow their passion and stay on the right track. We organize a national selection and train for the [European Cyber Security Challenge](https://europeancybersecuritychallenge.eu/).
 - **Candle-dipping:** I volunteer every year for this traditional event, mainly organized for families with small children.
-- **Videography:** From time to time I volunteer to create short movies for events with a good purpose, such as a skateboarding contest organized by a local sustainability-focussed	clothing brand.
+- **Videography:** From time to time I volunteer to create short movies for events with a good purpose, such as a skateboarding contest organized by a local sustainability-focussed	clothing brand. Click [here](https://www.mirohaller.ch) for some of my conent.
