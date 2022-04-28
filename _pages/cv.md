@@ -16,6 +16,9 @@ My research interests are in the intersection of applied cryptography, system se
 - MSc ETH Zurich &ndash; EPF Lausanne in Computer Science Major in Cyber Security (short: MSc ETH EPF CS)
 - BSc ETH Zurich in Computer Science (short: BSc ETH CS)
 
+Starting in Fall 2022:
+- PhD at UCSD advised by [Nadia Heninger](https://cseweb.ucsd.edu/~nadiah/)
+
 ## Professional experience
 - Research assisstant at the [Privacy Preserving Systems Lab](https://pps-lab.com/) of ETH Zurich (ongoing)
   - Content valuating and improving Fully Homomorphic Encryption (FHE) tool support
