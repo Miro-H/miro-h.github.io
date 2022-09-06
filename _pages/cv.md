@@ -16,18 +16,20 @@ My research interests are in the intersection of applied cryptography, system se
 - MSc ETH Zurich &ndash; EPF Lausanne in Computer Science Major in Cyber Security (short: MSc ETH EPF CS)
 - BSc ETH Zurich in Computer Science (short: BSc ETH CS)
 
-Starting in Fall 2022:
-- PhD at UCSD advised by [Nadia Heninger](https://cseweb.ucsd.edu/~nadiah/)
+Ongoing:
+- PhD at UCSD advised by [Nadia Heninger](https://cseweb.ucsd.edu/~nadiah/) (Fall 2022 - today)
 
 ## Professional experience
-- Research assisstant at the [Privacy Preserving Systems Lab](https://pps-lab.com/) of ETH Zurich (ongoing)
+- Research assisstant at the [Privacy Preserving Systems Lab](https://pps-lab.com/) of ETH Zurich
   - Content valuating and improving Fully Homomorphic Encryption (FHE) tool support
 - Intern at [DSwiss AG](https://www.securesafe.com/en/business/overview) (2016)
   - Adapting and extending automated server configurations, load and performance testing, E2E tests, replacing the company's telephone system.
 
 ## Achievements
+- [ETH Medal](https://ethz.ch/en/the-eth-zurich/education/awards/eth-medal/outstanding-master-theses.html): Award for outstanding master's thesis.
 - [Global Young Scientist Summit 2022](https://www.nrf.gov.sg/gyss/home): Nomination as ETH representative for the CS department.
-- [European Cyber Security Challenge](https://europeancybersecuritychallenge.eu/): triple qualification for the Swiss National Team (2016, 2017, 2019), team coach in 2021
+- [European Cyber Security Challenge](https://europeancybersecuritychallenge.eu/): triple qualification for the Swiss National Team (2016, 2017, 2019), and team coach (2021, 2022)
+- [SwissSkills Expert](https://www.swiss-skills.ch/de): Expert for the Cyber Security Trait of the Swiss national championship for professions in 2021.
 - [ICON](https://icon.ngo/challenge-ctf/): achieved first place with the team "sw1ss" in the 2018 final
 - [Swiss Olympiads of Informatics](https://soi.ch/): double participation (2014, 2015)
 - Best high school graduate of the year 2015 from the Neue Kantonsschule Aarau.
