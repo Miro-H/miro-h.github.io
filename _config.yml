@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Miro Haller"
   avatar           : "miro_haller_portrait_square_1200_width.jpg"
-  bio              : "Starting my PhD in Fall 2022 at UCSD doing cryptanalysis, system security, and privacy. Besides university, I play CTF and coach the Swiss Hacking Team."
+  bio              : "PhD Student at UCSD doing cryptanalysis, system security, and privacy. Besides university, I play CTF and coach the Swiss Hacking Team."
   location         : "Zurich"
   employer         :
   pubmed           :
@@ -103,7 +103,7 @@ author:
   impactstory      :
   lastfm           :
   linkedin         :
-  orcid            :
+  orcid            : "https://orcid.org/0000-0001-8796-5064"
   pinterest        :
   soundcloud       :
   stackoverflow    :
