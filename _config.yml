@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Miro Haller"
 title_separator          : "-"
 name                     : &name "Miro Haller"
-description              : &description "Cyber security student @ ETH. CTF player. Team coach of the Swiss National Hacking team."
+description              : &description "PhD student in applied cryptography @ UCSD. CTF player."
 url                      : https://www.mirohaller.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Miro-H/miro-h.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Miro Haller"
   avatar           : "miro_haller_portrait_square_1200_width.jpg"
-  bio              : "PhD Student at UCSD doing cryptanalysis, system security, and privacy. Besides university, I play CTF and coach the Swiss Hacking Team."
-  location         : "Zurich"
+  bio              : "PhD Student at UCSD doing cryptanalysis, system security, and privacy. CTF player,"
+  location         : "San Diego"
   employer         :
   pubmed           :
   googlescholar    : # TODO: create a Google scholar accounts
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/miro-haller"
   orcid            : "https://orcid.org/0000-0001-8796-5064"
   pinterest        :
   soundcloud       :

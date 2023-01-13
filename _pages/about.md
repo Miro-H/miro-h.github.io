@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Miro Haller"
-excerpt: "Soon to be PhD student @ UCSD. CTF Player. Coach of the Swiss National Hacking Team."
+excerpt: "PhD student in applied crypto @ UCSD. CTF Player."
 author_profile: true
 redirect_from:
   - /about/
