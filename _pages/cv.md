@@ -30,6 +30,7 @@ Ongoing:
 - [Global Young Scientist Summit 2022](https://www.nrf.gov.sg/gyss/home): Nomination as ETH representative for the CS department.
 - [European Cyber Security Challenge](https://europeancybersecuritychallenge.eu/): triple qualification for the Swiss National Team (2016, 2017, 2019), and team coach (2021, 2022)
 - [SwissSkills Expert](https://www.swiss-skills.ch/de): Expert for the Cyber Security Trait of the Swiss national championship for professions in 2021.
+- [ISSS Excellence Award](https://isss.ch/veranstaltungeb-kurse/isss-excellence-award-2022/): Award for the best thesis in the field of information security in Switzerland in 2022.
 - [ICON](https://icon.ngo/challenge-ctf/): achieved first place with the team "sw1ss" in the 2018 final
 - [Swiss Olympiads of Informatics](https://soi.ch/): double participation (2014, 2015)
 - Best high school graduate of the year 2015 from the Neue Kantonsschule Aarau.
