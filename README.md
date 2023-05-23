@@ -24,3 +24,9 @@ Locally build and serve the website with the following commands (and update it a
 bundle exec jekyll build --watch
 bundle exec jekyll serve --watch --port 8000
 ````
+
+## TODOs
+
+- Update research statement
+- Display distinctions
+- Link presentations
