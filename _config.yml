@@ -86,7 +86,7 @@ author:
   location         : "San Diego"
   employer         :
   pubmed           :
-  googlescholar    : # TODO: create a Google scholar accounts
+  googlescholar    : https://scholar.google.com/citations?user=tTYBMpAAAAAJ&hl=en&oi=sra
   email            : "miro.haller@alumni.ethz.ch"
   researchgate     :
   uri              :

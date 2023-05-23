@@ -1,0 +1,16 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <p>
+        {% if post.citation and (post.paperurl or post.eprint) %}
+            {{ post.citation }} ({% if post.blogpost %}<a href="{{ post.blogpost }}">blog post</a>, {% endif %}{% if post.paperurl %}<a href="{{ post.paperurl }}">pub</a>{% endif %}{% if post.paperurl and post.eprint %}, {% endif %}{% if post.eprint %}<a href="{{ post.eprint }}">pdf</a>{% endif %})
+        {% elsif post.citation %}
+            {{ post.citation }} {% if post.blogpost %}(<a href="{{ post.blogpost }}">blog post</a>){% endif %}
+        {% endif %}
+        {% if post.distinction %}
+            <b> 🏆 {{ post.distinction }} 🏆</b>
+        {% endif %}
+    </p>
+  </article>
+</div>
