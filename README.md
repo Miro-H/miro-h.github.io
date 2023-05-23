@@ -1,6 +1,6 @@
 # GitHub Pages Source Code
 
-This repository contains the source code for [mirohaller.ch](https://www.mirohaller.ch).
+This repository contains the source code for [mirohaller.com](https://www.mirohaller.com).
 
 This is based on a fork from [academicpages](https://github.com/academicpages/academicpages.github.io) whose license is [here](./LICENSE).
 
