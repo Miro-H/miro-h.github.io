@@ -14,3 +14,9 @@
 .container .content {
     display: none;
     padding : 5px;
+}
+
+.author__urls {
+    background-color: ##0b0c10;
+    color: #f8f8ff;
+}
