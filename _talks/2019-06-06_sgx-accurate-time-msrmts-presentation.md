@@ -3,7 +3,7 @@ title: "SGX Accurate Time Measurements"
 collection: talks
 type: "Talk"
 permalink: /talks/2019/06/bachelor-thesis-presentation/
-venue: "ETHZ"
+venues: "System Security Group ETH Zurich"
 date: 2019-06-06
 location: "Zurich, Switzerland"
 ---

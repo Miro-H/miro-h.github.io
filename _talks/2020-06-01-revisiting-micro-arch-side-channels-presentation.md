@@ -3,7 +3,7 @@ title: "Revisiting Microarchitectural Side-Channels"
 collection: talks
 type: "Talk"
 permalink: /talks/2020/06/revisiting/side-channels/
-venue: "EPFL"
+venues: "Security and Cryptography Laboratory (LASEC), EPFL"
 date: 2020-06-01
 location: "Online"
 ---

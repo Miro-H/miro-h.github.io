@@ -3,7 +3,7 @@ title: "Why E2EE Cloud Storage is hard - Challenges, Attacks and Best Practices"
 collection: talks
 type: "Talk"
 permalink: /talks/2023/03/cloud-storage-is-hard
-venue: "RWC 2023"
+venues: "RealWorldCrypto 2023;;Theory Seminar at UCSD;;CNS Research Review at UCSD"
 date: 2023-03-27
 location: "Tokyo, Japan"
 ---
