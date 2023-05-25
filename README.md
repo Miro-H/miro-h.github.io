@@ -28,5 +28,4 @@ bundle exec jekyll serve --watch --port 8000
 ## TODOs
 
 - Update research statement
-- Display distinctions
 - Link presentations
