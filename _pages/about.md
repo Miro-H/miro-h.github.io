@@ -8,9 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Our society increasingly relies on technology in all aspects of life without always understanding the implications and consequences. As more and more devices are connected, the boundaries between physical and digital systems blur, which gives rise to a plethora of security and privacy issues.
+Our society increasingly relies on technology in all aspects of life without always understanding the implications and consequences.
+As more and more devices are connected, the boundaries between physical and digital systems blur, giving rise to a plethora of security and privacy issues.
+Widespread enthusiasm about advanced cryptographic techniques — such as zero-knowledge proofs, homomorphic encryption, and MPC — leads to the fast adoption of complex algorithms to protect users in strong threat models, such as fully malicious servers.
 
-It is essential that we analyze wide-deployed cryptographic systems and challenge their claimed security properties. Considering how difficult it is to update the cryptography of such systems due to backward compatibility and their large scale, it is essential to design applications carefully _today_. Now is the time to build a solid, secure, privacy-preserving foundation with cryptographic agility based on which humanity can enjoy the miracles of digital progress without fearing data misuse, suffering from censorship, or otherwise becoming victim to cybercriminal activities.
-Privacy-preserving computation and advanced cryptographic techniques — such as multi-party computation and zero-knowledge proofs — often enable us to design data-driven applications that respect privacy in theory. However, in practice, the development of such solutions faces many challenges: side-channel attacks, sparse tool support, diverse requirements, and highly complex processes hinder wide adoption.
+It is essential that we analyze these systems to gain a better understanding of the justification of theoretic security assumptions in practice.
+In case of discrepancies, cryptanalysis helps to harden existing systems and improve our understanding of their concrete security guarantees.
+Furthermore, attacks expose fundamental problems in current deployments which informs the design of solutions resolving these issues.
 
-I want to contribute to increasing security and spreading privacy without compromising on practicality or usability. I am excited to question and improve the status quo by putting existing systems to the test and contributing ideas to improve or replace them. I am very grateful to get the opportunity to work on these goals during my Ph.D. at UCSD, advised by [Nadia Heninger](https://cseweb.ucsd.edu/~nadiah/).
+I aim to contribute to improving the security and privacy of deployed systems by putting them to the test and identifying cryptographic vulnerabilities.
+Furthermore, I challenge the status quo and contribute ideas to improve it.
+I am very grateful to get the opportunity to work on these goals during my Ph.D. at UCSD with my advisor [Nadia Heninger](https://cseweb.ucsd.edu/~nadiah/) and various outstanding internal and external collaborators.
