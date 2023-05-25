@@ -11,7 +11,7 @@ title                    : "Miro Haller"
 title_separator          : "-"
 name                     : &name "Miro Haller"
 description              : &description "PhD student in applied cryptography @ UCSD. CTF player."
-url                      : https://www.mirohaller.com
+url                      : "" #https://www.mirohaller.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Miro-H/miro-h.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Miro Haller"
-  avatar           : "miro_haller_portrait_square_1200_width.jpg"
+  avatar           : "miro_haller_portrait_square_600_width.png"
   bio              : "PhD Student at UCSD doing cryptanalysis, system security, and privacy. CTF player."
   location         : "San Diego"
   employer         :
@@ -281,4 +281,11 @@ tag_archive:
 compress_html:
   clippings: all
   ignore:
+
+
+
+
+
+
+
     envs: development
