@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Miro Haller"
-  avatar           : "miro_haller_portrait_square_600_width.png"
+  avatar           : "miro_haller_portrait_square_600_width.jpg"
   bio              : "PhD Student at UCSD doing cryptanalysis, system security, and privacy. CTF player."
   location         : "San Diego"
   employer         :
