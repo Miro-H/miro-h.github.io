@@ -41,6 +41,11 @@ Ongoing:
 {%- endfor -%}
 </ul>
 
+## Academic Service
+
+- Organizing the [Cryptographic Applications Workshop (CAW) at Eurocrypt 2024](https://caw.cryptanalysis.fun/)
+- Organizing the [Workshop on Attacks in Cryptography 6 (WAC6) at CRYPTO 2023](https://wac6.cryptanalysis.fun/)
+
 ## Professional experience
 
 - Research assisstant at the [Privacy Preserving Systems Lab](https://pps-lab.com/) of ETH Zurich
