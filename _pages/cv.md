@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Research Interests
-My research interests are in the intersection of applied cryptography, system security, and privacy. I am excited about using mathematical techniques for cryptanalysis. Attacks contribute to identify the root causes for failures of cryptography in practice, which can then inform the design or improvement of systems to address these issues.
+My research interests are in the intersection of applied cryptography, system security, and privacy. I am excited about using mathematical techniques for cryptanalysis. I leverage attacks to identify the root causes of cryptography failures in practice, and then build or improve systems to address these failures.
 
 ## Education
 
