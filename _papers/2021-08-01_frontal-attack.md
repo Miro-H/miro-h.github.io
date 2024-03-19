@@ -1,7 +1,7 @@
 ---
 title: "Frontal Attack: Leaking Control-​Flow in SGX via the CPU Frontend"
-collection: publications
-permalink: /publication/2021/08/frontal-attack
+collection: papers
+permalink: /paper/2021/08/frontal-attack
 date: 2021-08-01
 venue: 'USENIX Security 2021'
 blogpost: '/posts/2019/06/bachelor-thesis/'

@@ -175,7 +175,10 @@ kramdown:
 
 # Collections
 collections:
-  publications:
+  papers:
+    output: true
+    permalink: /:collection/:path/
+  articles:
     output: true
     permalink: /:collection/:path/
   talks:

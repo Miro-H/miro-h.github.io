@@ -3,9 +3,9 @@ title: 'An Empirical Analysis on the Use and Reporting of National Security Lett
 date: 2024-03-05
 permalink: /posts/2024/03/empirical-analysis-of-nsls
 tags:
-  - Security
-  - Measurement
-  - Law
+  - security
+  - measurement
+  - law
 ---
 
 We collect and analyze public information on National Security Letters.

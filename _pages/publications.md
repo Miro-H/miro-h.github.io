@@ -5,11 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-**Papers are sorted in reverse order of publication. Stars (\*) mark the first author(s).**
-
+**Publications are sorted in reverse order of publication. Stars (\*) mark the first author(s).**
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+## Papers
+
+{% for post in site.papers reversed %}
   {% include archive-publication.html %}
 {% endfor %}
+
+## Articles
+
+{% for post in site.articles reversed %}
+  {% include archive-publication.html %}
+{% endfor %}
+

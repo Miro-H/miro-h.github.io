@@ -1,7 +1,7 @@
 ---
 title: ""
-collection: publications
-permalink: /publication/2023/05/mega-followup
+collection: papers
+permalink: /paper/2023/05/mega-followup
 date: 2023-05-01
 venue: 'Eurocrypt 2023'
 eprint: 'https://eprint.iacr.org/2023/329'
