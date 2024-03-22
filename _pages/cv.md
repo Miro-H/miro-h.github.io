@@ -23,9 +23,30 @@ Ongoing:
 
 ## Publications
 
+Papers published in peer-reviewed proceedings:
 <ul>
-{%- assign pubs = site.publications | reverse -%}
-{%- for post in pubs -%}
+{%- assign papers = site.papers | reverse -%}
+{%- for post in papers -%}
+    {% if post.published == 'yes' %}
+        {%- include archive-single-cv.html -%}
+    {% endif %}
+{%- endfor -%}
+</ul>
+
+Unreviewed/pre-print papers:
+<ul>
+{%- assign papers = site.papers | reverse -%}
+{%- for post in papers -%}
+    {% unless post.published == 'yes' %}
+        {%- include archive-single-cv.html -%}
+    {% endunless %}
+{%- endfor -%}
+</ul>
+
+Articles:
+<ul>
+{%- assign articles = site.articles | reverse -%}
+{%- for post in articles -%}
     {%- include archive-single-cv.html -%}
 {%- endfor -%}
 </ul>
