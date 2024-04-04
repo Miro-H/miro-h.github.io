@@ -17,6 +17,8 @@ Our abstract from the [talk announcement](https://csrc.nist.gov/presentations/20
 >
 > In this talk, we discuss some of these challenges. In particular, we draw on our experiences from recent work on analyzing and constructing cryptography for practice and try to condense the lessons learnt, including: Where (and why) does the gap between theory and practice arise? How can applied cryptography help bridge the gap? And why should you, too, do applied cryptography?
 
+The presentation slides are available [here](/files/2024-04-03_thriving_between_theory_and_practice.pdf).
+
 ## Readings
 
 This talk was based on insights from our work in this space:
