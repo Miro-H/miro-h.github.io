@@ -3,7 +3,7 @@ title: "Thriving in between theory and practice: How applied cryptography bridge
 collection: talks
 type: "Talk"
 permalink: /talks/2024/04/thriving-between-theory-and-practice
-venues: "Crypto Reading Club at NIST"
+venues: "Crypto Reading Club at NIST;;Zurich Information Security & Privacy Center at ETH Zurich"
 date: 2024-04-03
 location: "NIST"
 ---
