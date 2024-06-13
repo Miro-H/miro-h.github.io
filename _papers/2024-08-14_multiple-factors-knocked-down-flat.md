@@ -2,7 +2,7 @@
 title: "MFKDF: Multiple Factors Knocked Down Flat"
 collection: papers
 permalink: /paper/2024/08/multiple-factors-knocked-down
-#blogpost: /posts/2024/08/ultiple-factors-knocked-down
+blogpost: /posts/2024/08/mfkdf
 date: 2024-08-14
 venue: 'Philadelphia, USENIX 2024'
 eprint: 'https://eprint.iacr.org/2024/935'
