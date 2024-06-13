@@ -5,7 +5,7 @@ permalink: /paper/2024/08/multiple-factors-knocked-down
 #blogpost: /posts/2024/08/ultiple-factors-knocked-down
 date: 2024-08-14
 venue: 'Philadelphia, USENIX 2024'
-#eprint: ''
+eprint: 'https://eprint.iacr.org/2024/935'
 published: 'yes'
 #paperurl: ''
 #talk: ''
