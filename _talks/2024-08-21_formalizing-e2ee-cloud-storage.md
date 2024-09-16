@@ -3,7 +3,7 @@ title: "A Formal Treatment of End-to-End Encrypted Cloud Storage"
 collection: talks
 type: "Talk"
 permalink: /talks/2024/08/formalizing-e2ee-cloud-storage
-venues: "Crypto 2024;;Berkeley Security Seminar"
+venues: "Crypto 2024;;Berkeley Security Seminar;;Trails of Bits;;UMD Crypto Reading Group"
 date: 2024-08-21
 location: "Santa Barbara"
 ---
