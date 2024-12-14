@@ -3,7 +3,7 @@ title: "A Formal Treatment of End-to-End Encrypted Cloud Storage"
 collection: talks
 type: "Talk"
 permalink: /talks/2024/08/formalizing-e2ee-cloud-storage
-venues: "Crypto 2024;;Berkeley Security Seminar;;Trails of Bits;;UMD Crypto Reading Group"
+venues: "Crypto 2024;;Berkeley Security Seminar;;Trails of Bits;;UMD Crypto Reading Group;;Apple;;MIT Security Seminar;;Amazon AWS;;Google"
 date: 2024-08-21
 location: "Santa Barbara"
 ---
@@ -37,3 +37,7 @@ Along the way, we will point out challenges on the path towards bringing the sec
 Here are different versions of our slides:
 - [Crypto 2024](/files/2024_09_formalizing-e2ee-cloud-storage-crypto.pdf) (co-presented with Matilda Backendal)
 - [Berkeley Security Seminar](/files/2024_09_formalizing-e2ee-cloud-storage-Berkeley.pdf)
+- [Apple](/files/2024_10_formalizing-e2ee-cloud-storage-Apple.pdf)
+- [Amazon](/files/2024_10_formalizing-e2ee-cloud-storage-Amazon.pdf)
+
+<!-- TODO: add Google and MIT -->

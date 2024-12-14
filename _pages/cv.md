@@ -76,6 +76,7 @@ Articles:
 
 ## Achievements
 
+- [Google PhD Fellowship](https://research.google/programs-and-events/phd-fellowship/recipients/) 2024
 - [Distinguished paper award](https://www.ieee-security.org/TC/SP2023/program-awards.html) at IEEE S&P 2023.
 - [ETH Medal](https://ethz.ch/en/the-eth-zurich/education/awards/eth-medal/outstanding-master-theses.html): Award for outstanding master's thesis.
 - [Global Young Scientist Summit 2022](https://www.nrf.gov.sg/gyss/home): Nomination as ETH representative for the CS department.
