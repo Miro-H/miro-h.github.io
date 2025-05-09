@@ -1,21 +1,37 @@
 ---
 permalink: /
-title: "Miro Haller"
-excerpt: "PhD student in applied crypto @ UCSD. CTF Player."
+excerpt: "PhD student in applied crypto @ UCSD. Hacker."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Our society increasingly relies on technology in all aspects of life without always understanding the implications and consequences.
-As more and more devices are connected, the boundaries between physical and digital systems blur, giving rise to a plethora of security and privacy issues.
-Widespread enthusiasm about advanced cryptographic techniques — such as zero-knowledge proofs, homomorphic encryption, and MPC — leads to the fast adoption of complex algorithms to protect users in strong threat models, such as fully malicious servers.
+My research interests are in the intersection of applied cryptography, system security, and privacy. I'm excited about using mathematical techniques for cryptanalysis. I leverage attacks to identify the root causes of cryptography failures in practice, and then build or improve systems to address these failures.
 
-It is essential that we analyze these systems to gain a better understanding of the justification of theoretic security assumptions in practice.
-In case of discrepancies, cryptanalysis helps to harden existing systems and improve our understanding of their concrete security guarantees.
-Furthermore, attacks expose fundamental problems in current deployments which informs the design of solutions resolving these issues.
+I'm fortunate to work with many amazing people including my PhD advisor @ UC San Diego [Nadia Heninger](https://cseweb.ucsd.edu/~nadiah/){:target="_blank"}, [Kenny Paterson](https://appliedcrypto.ethz.ch/){:target="_blank"}, [Matilda Backendal](https://mbackendal.github.io/){:target="_blank"}, and many other outstanding internal and external collaborators.
 
-I aim to contribute to improving the security and privacy of deployed systems by putting them to the test and identifying cryptographic vulnerabilities.
-Furthermore, I challenge the status quo and contribute ideas to improve it.
-I am very grateful to get the opportunity to work on these goals during my Ph.D. at UCSD with my advisor [Nadia Heninger](https://cseweb.ucsd.edu/~nadiah/) and various outstanding internal and external collaborators.
+## Selected Publications
+
+<ul>
+{%- assign papers = site.papers | reverse -%}
+{%- for post in papers -%}
+    {% if post.spotlight == 'yes' %}
+        {%- include archive-single-about.html -%}
+    {% endif %}
+{%- endfor -%}
+</ul>
+
+[Click here for all publications...](/publications/)
+
+## Selected Achievements
+
+<ul>
+{% for achievement in site.data.achievements %}
+    {% if achievement.spotlight == 'yes' %}
+        <li>{{ achievement.text | markdownify }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+[Click here for the full CV](/cv/)

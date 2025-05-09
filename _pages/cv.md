@@ -64,25 +64,40 @@ Articles:
 
 ## Academic Service
 
-- Organizing the [Cryptographic Applications Workshop (CAW) at Eurocrypt 2024](https://caw.cryptanalysis.fun/)
-- Organizing the [Workshop on Attacks in Cryptography 6 (WAC6) at CRYPTO 2023](https://wac6.cryptanalysis.fun/)
+<ul>
+{% for service in site.data.academic_service %}
+	<li>{{ service | markdownify }}</li>
+{% endfor %}
+</ul>
+
+## Department Service
+
+<ul>
+{% for service in site.data.department_service %}
+	<li>{{ service | markdownify }}</li>
+{% endfor %}
+</ul>
+
+## Teaching
+
+<ul>
+{% for lesson in site.data.teaching %}
+        <li>{{ lesson | markdownify }}</li>
+{% endfor %}
+</ul>
 
 ## Professional experience
 
-- Research assisstant at the [Privacy Preserving Systems Lab](https://pps-lab.com/) of ETH Zurich
-  - Content valuating and improving Fully Homomorphic Encryption (FHE) tool support
-- Intern at [DSwiss AG](https://www.securesafe.com/en/business/overview) (2016)
-  - Adapting and extending automated server configurations, load and performance testing, E2E tests, replacing the company's telephone system.
+<ul>
+{% for exp in site.data.professional_experience %}
+        <li>{{ exp | markdownify }}</li>
+{% endfor %}
+</ul>
 
 ## Achievements
 
-- [Google PhD Fellowship](https://research.google/programs-and-events/phd-fellowship/recipients/) 2024
-- [Distinguished paper award](https://www.ieee-security.org/TC/SP2023/program-awards.html) at IEEE S&P 2023.
-- [ETH Medal](https://ethz.ch/en/the-eth-zurich/education/awards/eth-medal/outstanding-master-theses.html): Award for outstanding master's thesis.
-- [Global Young Scientist Summit 2022](https://www.nrf.gov.sg/gyss/home): Nomination as ETH representative for the CS department.
-- [European Cyber Security Challenge](https://europeancybersecuritychallenge.eu/): triple qualification for the Swiss National Team (2016, 2017, 2019), and team coach (2021, 2022)
-- [SwissSkills Expert](https://www.swiss-skills.ch/de): Expert for the Cyber Security Trait of the Swiss national championship for professions in 2022 and 2023.
-- [ISSS Excellence Award](https://isss.ch/veranstaltungeb-kurse/isss-excellence-award-2022/): Award for the best thesis in the field of information security in Switzerland in 2022.
-- [ICON](https://icon.ngo/challenge-ctf/): achieved first place with the team "sw1ss" in the 2018 final
-- [Swiss Olympiads of Informatics](https://soi.ch/): double participation (2014, 2015)
-- Best high school graduate of the year 2015 from the Neue Kantonsschule Aarau.
+<ul>
+{% for achievement in site.data.achievements %}
+        <li>{{ achievement.text | markdownify }}</li>
+{% endfor %}
+</ul>

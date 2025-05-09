@@ -8,15 +8,22 @@
                 <b> 🏆 {{ post.distinction }} 🏆</b><br>
             {%- endif -%}
             {{ post.citation }}
-            {%- assign labels = "blog post,pub,pdf,talk" | split: "," -%}
-            {%- capture links_capture -%}{{ post.blogpost }},{{ post.paperurl }},{{ post.eprint }},{{ post.talk }}{%- endcapture -%}
+            {%- assign labels = "blog post,pub,pdf" | split: "," -%}
+            {%- capture links_capture -%}{{ post.blogpost }},{{ post.paperurl }},{{ post.eprint }}{%- endcapture -%}
             {%- assign links = links_capture | split: "," -%}
             {%- if links.size > 0 -%}
             &nbsp;({%- for link in links -%}
                 <a href="{{ link }}" target="_blank">{{ labels[forloop.index0] }}</a>
                 {%- unless forloop.last -%}, {% endunless -%}
-            {%- endfor -%})
+            {%- endfor -%}
             {%- endif -%}
+            {%- if post.talk_name -%}
+              {%- assign talk = site.data.talks | where: "name", post.talk_name | first -%}
+              {%- if talk -%}
+                  {%- assign venue = talk.venues | first -%}
+                  , <a href="{{ venue.link }}" target="_blank">talk</a>
+              {%- endif -%}
+            {%- endif -%})
         {%- endif -%}
     </p>
   </article>

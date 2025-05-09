@@ -1,0 +1,10 @@
+{% include base_path %}
+
+<li>
+	{{ post.citation }}
+        (<a href="{{ post.blogpost }}" target="_blank">link</a>)
+
+       	{%- if post.distinction -%}
+       	    <b> 🏆 {{ post.distinction }} 🏆</b>
+       	{%- endif -%}
+</li>

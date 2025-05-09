@@ -1,0 +1,149 @@
+# TODO: implement talks on about pages, CV pages, and auto generate posts about talks rather then using _talks
+
+- name: frontal-attack
+  venues:
+    - name: USENIX Security 2021
+      my_presentation: 'no'  
+      link: https://www.youtube.com/watch?v=ti58SJ1ie3A
+
+- name: heco
+  venues:
+    - name: USENIX Security 2023
+      my_presentation: 'no'
+      link: https://www.youtube.com/watch?v=SP3C6gLWIS4
+
+- name: mega-awry
+  desc: |
+    In this talk, I present five attacks on the user-controlled end-to-end security MEGA.
+    Our attacks show that a malicious provider can break authentication and compromise file confidentiality and integrity.
+  venues:
+    - name: IEEE Symposium on Security and Privacy 2023
+      my_presentation: 'yes'
+      link: https://www.youtube.com/watch?v=nJQ-DbntAUs
+      embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nJQ-DbntAUs" title="MEGA: Malleable Encryption Goes Awry" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+      slides: 2023-05-22_mega.pdf
+    - name: Brave Research Group
+      my_presentation: 'yes'
+
+- name: cloud-storage-is-hard
+  title: Why E2EE Cloud Storage is hard - Challenges, Attacks and Best Practices
+  desc: We discuss leasons learnt from breaking MEGA for why end-to-end encrypted cloud storage is hard to design.
+  venues:
+    - name: RealWorldCrypto 2023
+      my_presentation: 'yes'
+      link: https://youtu.be/9uIpmz2GAew?si=orKW-_4MwQNbyQUB&t=1948
+      embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/9uIpmz2GAew?start=1948" title="Why E2EE Cloud Storage is hard (talk recording)" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      slides: 2023-03-28_why_cloud_storage_is_hard.pdf
+    - name: UCSD Theory Seminar
+      my_presentation: 'yes'
+    - name: CNS Research Review 2023
+      my_presentation: 'yes'
+
+- name: mega-followup
+  venues:
+    - name: Eurocrypt 2023
+      my_presentation: 'no'
+      link: https://youtu.be/5bdZc8OcQuk?t=1274
+
+- name: empirical-analysis-of-nsls
+  venues:
+    - name: "ACM Symposium on Computer Science and Law (CS&amp;Law 2025)"
+      my_presentation: 'no'
+    - name: "ACM Symposium on Computer Science and Law (CS&amp;Law 2024) [short presentation]"
+      my_presentation: 'yes'
+
+- name: key-overwriting
+  title: Key Overwriting Attacks
+  desc: |
+    In this guest lecture in the applied cryptography course [CSE 207b](https://cseweb.ucsd.edu/classes/fa23/cse207B-a/) at UCSD, I formalize key overwriting attacks.
+  venues:
+    - name: CSE 207b
+      my_presentation: 'yes'
+      embed: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x21qwMAUscE?si=kjdg-dHsokwy6NXO" title="Key Overwriting Attacks YouTube Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      slides: 2023-11-30_CSE207b_Key_Overwriting_Attacks.pdf
+    - name: MIT CSAIL
+      link: https://calendar.csail.mit.edu/events/279180
+      slides: 2024-03-20_Key_Overwriting_Attacks.pdf
+      my_presentation: 'yes'
+
+- name: thriving-gap
+  title:
+  venues:
+    - name: Crypto Reading Club at NIST
+      my_presentation: 'yes'
+      link: https://csrc.nist.gov/presentations/2024/crclub-2024-04-03
+      # TODO: find recording
+    - name: Zurich Information Security & Privacy Center at ETH Zurich
+      my_presentation: 'yes'
+
+- name: radius
+  venues:
+    - name: RealWorldCrypto 2025
+      my_presentation: 'yes'
+      link: https://www.youtube.com/live/R1NEfuv3iMk?si=GLCaOPC0Omf5oiHI&t=25372
+      slides: 2025_03_blastradius_rwc.pdf
+      spotlight: 'yes'
+    - name: BlackHat Europe 2024
+      link: https://youtu.be/dagyATfzRFo?si=ijXEgRZ-XSEx_2FT
+      my_presentation: 'yes'
+      slides: 2024_12_blastradius_blackhat.pdf
+    - name: USENIX Security 2024
+      my_presentation: 'no'
+      link: https://www.youtube.com/watch?v=vG89T_TKdFs
+      slides: 2024_08_blastradius_usenix.pdf
+      comment: (slides created together with Adam, we were planning to co-present but I fell sick)
+    - name: IETF meeting 120
+      my_presentation: 'yes'
+      slides: 2024_12_blastradius_blackhat.pdf
+      comment: (slides were created and presented together with my advisor Nadia)
+      slides: 2024_07_blastradius_radext.pdf
+    - name: UCSD Security Seminar
+      my_presentation: 'yes'
+      slides: 2024_10_blastradius_ucsd.pdf
+    - name: CNS Research Review 2025
+      my_presentation: 'yes'
+      # TODO: upload slides
+
+- name: mfkdf
+  venues:
+    - name: USENIX Security 2024
+      my_presentation: 'no'
+      link: https://www.youtube.com/watch?v=vm8TAkwTVjM
+    - name: UCSD Sysnet Seminar
+      my_presentation: 'yes'
+
+- name: e2ee-cloud-storage-security-notions
+  venues:
+    - name: RSA Conference 2025 (Breaking Research track)
+      my_presentation: 'yes'
+      spotlight: 'yes'
+      # TODO: find recording
+      # TODO: add slides
+    - name: RealWorldCrypto 2025
+      my_presentation: 'yes'
+      link: https://www.youtube.com/live/6FQX2otSbuE?si=Bps_Kn5Cd8Ez0svw&t=488
+    - name: CRYPTO 2024
+      my_presentation: 'yes'
+      link: https://youtu.be/epiON1Kjr8o?si=jOot0k__UV_AoRqc
+      slides: 2024_09_formalizing-e2ee-cloud-storage-crypto.pdf
+    - name: Berkeley Security Seminar
+      my_presentation: 'yes'
+      slides: 2024_09_formalizing-e2ee-cloud-storage-Berkeley.pdf
+    - name: Trails of Bits
+      my_presentation: 'yes'
+      # TODO: add slides
+    - name: UMD Crypto Reading Group
+      my_presentation: 'yes'
+      # TODO: add slides
+    - name: Apple
+      my_presentation: 'yes'
+      slides: 2024_10_formalizing-e2ee-cloud-storage-Apple.pdf
+    - name: MIT Security Seminar
+      my_presentation: 'yes'
+      # TODO: add slides
+    - name: Amazon AWS
+      my_presentation: 'yes'
+      slides: 2024_10_formalizing-e2ee-cloud-storage-Amazon.pdf
+    - name: Google
+      my_presentation: 'yes'
+      # TODO: add slides
