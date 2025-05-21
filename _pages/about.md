@@ -22,7 +22,7 @@ I'm fortunate to work with many amazing people including my PhD advisor @ UC San
 {%- endfor -%}
 </ul>
 
-[Click here for all publications...](/publications/)
+<button type="button" class="btn btn-link btn--inverse" onclick="window.location.href='/publications/'">Click here for all publications...</button>
 
 ## Selected Achievements
 
@@ -34,4 +34,4 @@ I'm fortunate to work with many amazing people including my PhD advisor @ UC San
 {% endfor %}
 </ul>
 
-[Click here for the full CV](/cv/)
+<button type="button" class="btn btn-link btn--inverse" onclick="window.location.href='/cv/'">Click here for the full CV</button>
