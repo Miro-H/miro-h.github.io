@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Miro Haller"
   avatar           : "miro_haller_portrait_square_600_width.jpg"
-  bio              : "PhD Student at UCSD doing cryptanalysis, system security, and privacy. CTF player."
+  bio              : "PhD Student @ UCSD doing applied cryptography (cryptanalysis / building systems) and system security."
   bluesky          : "mirohaller.bsky.social"
   location         : "San Diego"
   employer         :
