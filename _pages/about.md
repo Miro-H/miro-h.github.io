@@ -43,7 +43,7 @@ I'm fortunate to work with many amazing people including my PhD advisor @ UC San
         {%- endif -%}
         <div class="card-body">
           <h3 class="card-title" style="margin: 0;">{{ talk.title }}</h3>
-          <p class="page__meta fs-5">{{ talk_venue.name }}</p>
+          <p class="page__meta fs-8">{{ talk_venue.name }}</p>
           {%- if talk.subtitle -%}
           <h6 class="card-subtitle mb-2 text-muted">{{ talk.subtitle }}</h6>
           {%- endif -%}
