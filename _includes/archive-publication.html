@@ -13,8 +13,10 @@
             {%- assign links = links_capture | split: "," -%}
             {%- if links.size > 0 -%}
             &nbsp;({%- for link in links -%}
+                {%- if link != "" -%}
                 <a href="{{ link }}" target="_blank">{{ labels[forloop.index0] }}</a>
                 {%- unless forloop.last -%}, {% endunless -%}
+                {%- endif -%}
             {%- endfor -%}
             {%- endif -%}
             {%- if post.talk_name -%}
@@ -23,7 +25,8 @@
                   {%- assign venue = talk.venues | first -%}
                   , <a href="{{ venue.link }}" target="_blank">talk</a>
               {%- endif -%}
-            {%- endif -%})
+            {%- endif -%}
+            {%- if links.size > 0 or talk -%}){% endif %}
         {%- endif -%}
     </p>
   </article>
