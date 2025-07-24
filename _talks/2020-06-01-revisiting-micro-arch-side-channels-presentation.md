@@ -1,11 +1,15 @@
 ---
-title: "Revisiting Microarchitectural Side-Channels"
+name: aes-side-channels
+title: Revisiting Microarchitectural Side-Channels
+date: 2020-06-01
 collection: talks
 type: "Talk"
-permalink: /talks/2020/06/revisiting/side-channels/
-venues: "Security and Cryptography Laboratory (LASEC), EPFL"
-date: 2020-06-01
-location: "Online"
+permalink: /talks/2020/06/aes-side-channels
+short_desc: This talks presents the results of applying cache side-channels to contemporary hardware and investigating AES lookup tables, AES key scheduling, and Argon2.
+venues:
+  - name: "Security and Cryptography Laboratory (LASEC), EPFL"
+    my_presentation: 'yes'
+    slides: /files/revisiting-microarchitectural-side-channels-presentation.pdf
 ---
 
 This talks presents the results of applying cache side-channels to contemporary hardware and investigating AES lookup tables, AES key scheduling, and Argon2. The slides give a brief overview of the content described in [this blog post](/posts/2020/06/Revisiting-Side-Channels/)
@@ -57,9 +61,7 @@ In this figure, we consider two processes, an attacker and a victim, running on 
 
 We found that the side-channel granularity is currently too coarse to measure significant patterns of Agon2. However, further research could make this attack practical by slowing down the victim of making the attack more fine granular.
 
-## Resources
-
-- The complete slides are available [here](/files/revisiting-microarchitectural-side-channels-presentation.pdf).
+## Additional Resources
 
 - More details are in the [blog post](/posts/2020/06/Revisiting-Side-Channels/) and [report](/files/revisiting-microarchitectural-side-channels.pdf).
 

@@ -6,9 +6,53 @@ permalink: /talks/2024/08/formalizing-e2ee-cloud-storage
 venues: "Crypto 2024;;Berkeley Security Seminar;;Trails of Bits;;UMD Crypto Reading Group;;Apple;;MIT Security Seminar;;Amazon AWS;;Google"
 date: 2024-08-21
 location: "Santa Barbara"
+spotlight: 'yes'
+short_desc: We present a formal syntax and security notions for end-to-end encrypted cloud storage and design the first, provably secure protocol for this widespread application.
+desc: |
+  Analyses of multiple end-to-end encrypted cloud storage protocols revealed serious flaws, raising the question of whether any of these protocols are trustworthy. This talk will present the first cryptographic model for secure cloud storage with a compromised or malicious server, capturing real-world complexities. This model presents the first provably secure E2EE cloud storage protocol.
+venues:
+  - name: RSA Conference 2025
+    comment: Breaking research track
+    my_presentation: 'yes'
+    youtube: 'https://youtu.be/xbvklxy-dBQ?feature=shared'
+    youtube_embed: https://www.youtube.com/embed/xbvklxy-dBQ?si=2Vv__MaCHQBh6TLY
+    slides: /files/2025_04_RSAC-BR-W01-Provable-Security-for-End-to-End-Encrypted-Cloud-Storage-print.pdf
+  - name: RealWorldCrypto 2025
+    my_presentation: 'yes'
+    youtube: https://www.youtube.com/live/6FQX2otSbuE?si=Bps_Kn5Cd8Ez0svw&t=488
+    comment: co-presented with Matilda Backendal
+  - name: CRYPTO 2024
+    my_presentation: 'yes'
+    youtube: https://youtu.be/epiON1Kjr8o?si=jOot0k__UV_AoRqc
+    slides: /files/2024_09_formalizing-e2ee-cloud-storage-crypto.pdf
+    comment: co-presented with Matilda Backendal
+  - name: Berkeley Security Seminar
+    my_presentation: 'yes'
+    slides: /files/2024_09_formalizing-e2ee-cloud-storage-Berkeley.pdf
+  - name: Trails of Bits
+    my_presentation: 'yes'
+    slides: /files/2024_09_formalizing-e2ee-cloud-storage-TrailOfBits.pdf
+    comment: co-presented with Matilda Backendal
+  - name: UMD Crypto Reading Group
+    my_presentation: 'yes'
+    slides: /files/2024_09_formalizing-e2ee-cloud-storage-UMD.pdf
+  - name: Apple
+    my_presentation: 'yes'
+    slides: /files/2024_10_formalizing-e2ee-cloud-storage-Apple.pdf
+    comment: co-presented with Matilda Backendal
+  - name: MIT Security Seminar
+    my_presentation: 'yes'
+    slides: /files/2024_11_formalizing-e2ee-cloud-storage-MIT.pdf
+  - name: Amazon AWS
+    my_presentation: 'yes'
+    slides: /files/2024_10_formalizing-e2ee-cloud-storage-Amazon.pdf
+    comment: co-presented with Matilda Backendal
+  - name: Google
+    my_presentation: 'yes'
+    slides: /files/2024_11_formalizing-e2ee-cloud-storage-Google.pdf
+    comment: co-presented with Matilda Backendal
 ---
 
-We present a formal syntax and security notions for end-to-end encrypted cloud storage and design the first, provably secure protocol for this widespread application.
 
 ## Paper
 
@@ -16,28 +60,14 @@ This talk is based on our paper at Crypto'24, which I discuss in [this blog post
 
 ## Talk Abstract
 
-Users increasingly store their data in the cloud, thereby benefiting from easy access, sharing, and redundancy.
-To additionally guarantee security of the outsourced data even against a server compromise, some service providers including iCloud have started to offer end-to-end encrypted (E2EE) cloud storage.
-With this cryptographic protection, only legitimate owners can read or modify the data.
-Academic work in the cloud storage space has focused on achieving advanced properties such as hiding metadata, searching encrypted data, puncturing keys to achieve forward security, or the temporary self-revocation of access.
-However, recent attacks on Mega and other large E2EE providers have highlighted the lack of solid foundations for even the basic confidentiality and integrity guarantees of this emerging type of service.
-
-In this talk, Matilda Backendal and I present joint work with Hannah Davis, Felix Günther, and Kenny Paterson that initiates the formal study of E2EE cloud storage.
-We will present our formal syntax to express the core functionality of a cloud storage system, capturing the real-world complexity of such a system's constituent interactive protocols. 
-Then, we define our game-based security notions for confidentiality and integrity of a cloud storage system against a fully malicious server with both selective and fully adaptive client compromises. 
-Finally, we present an E2EE cloud storage system that provides all core functionalities and that is both efficient and provably secure with respect to our selective security notions. 
-Along the way, we will point out challenges on the path towards bringing the security of cloud storage up to par with other end-to-end primitives, such as secure messaging and TLS, and avenues for future work.
+Analyses of multiple end-to-end encrypted cloud storage protocols revealed serious flaws, raising the question of whether any of these protocols are trustworthy. This talk presents the first cryptographic model for secure cloud storage with a compromised or malicious server, capturing real-world complexities. This model presents the first provably secure E2EE cloud storage protocol.
 
 ## Talk Recording
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/epiON1Kjr8o?si=VIaXXZBng7gYdXFq&amp;start=1106" title="A Formal Treatment of End-to-End Encrypted Cloud Storage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### RSA Conference 2025
 
-## Talk Slides
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xbvklxy-dBQ?si=2Vv__MaCHQBh6TLY" title="RSAC: A Formal Treatment of End-to-End Encrypted Cloud Storage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Here are different versions of our slides:
-- [Crypto 2024](/files/2024_09_formalizing-e2ee-cloud-storage-crypto.pdf) (co-presented with Matilda Backendal)
-- [Berkeley Security Seminar](/files/2024_09_formalizing-e2ee-cloud-storage-Berkeley.pdf)
-- [Apple](/files/2024_10_formalizing-e2ee-cloud-storage-Apple.pdf)
-- [Amazon](/files/2024_10_formalizing-e2ee-cloud-storage-Amazon.pdf)
+### Crypto 2024 conference talk
 
-<!-- TODO: add Google and MIT -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epiON1Kjr8o?si=VIaXXZBng7gYdXFq&amp;start=1106" title="Crypto: A Formal Treatment of End-to-End Encrypted Cloud Storage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -22,7 +22,48 @@ I'm fortunate to work with many amazing people including my PhD advisor @ UC San
 {%- endfor -%}
 </ul>
 
-<button type="button" class="btn btn-link btn--inverse" onclick="window.location.href='/publications/'">Click here for all publications...</button>
+<button type="button" class="btn border border-white" onclick="window.location.href='/publications/'">show all publications</button>
+
+## Selected talks
+
+<div class="mt-4">
+  {% assign talks_spotlight = site.talks | where: "spotlight", "yes" %}
+  {% for talk in talks_spotlight %}
+  {% assign idx_mod = forloop.index0 | modulo: 2 %}
+  {% if idx_mod == 0 %}
+  <div class="row" style="display: flex">
+  {% endif %}
+    {%- assign talk_venue = talk.venues[0] -%}
+    <div class="col-sm-6 card-group">
+      <div class="card">
+        {%- if talk_venue.youtube -%}
+        <div class="card-img-top">
+          <iframe src="{{ talk_venue.youtube_embed }}" title="Embedded video for talk with title {{ talk.title }}" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        {%- endif -%}
+        <div class="card-body">
+          <h3 class="card-title" style="margin: 0;">{{ talk.title }}</h3>
+          <p class="page__meta fs-5">{{ talk_venue.name }}</p>
+          {%- if talk.subtitle -%}
+          <h6 class="card-subtitle mb-2 text-muted">{{ talk.subtitle }}</h6>
+          {%- endif -%}
+          {%- if talk.short_desc -%}
+          <p class="card-text">{{ talk.short_desc }}</p>
+          {%- endif -%}
+          <a href="{{ base_path }}{{ talk.url }}" class="btn btn-link">More</a>
+        </div>
+      </div>
+    </div>
+  {% if idx_mod == 1 %}
+  </div>
+  {% endif %}
+  {%- endfor %}
+  {% if idx_mod == 0 %}
+  </div>
+  {% endif %}
+  
+  <button type="button" class="btn btn-link mt-2" onclick="window.location.href='/talks/'">show all talks</button>
+</div>
 
 ## Selected Achievements
 
@@ -34,4 +75,4 @@ I'm fortunate to work with many amazing people including my PhD advisor @ UC San
 {% endfor %}
 </ul>
 
-<button type="button" class="btn btn-link btn--inverse" onclick="window.location.href='/cv/'">Click here for the full CV</button>
+<button type="button" class="btn btn-link" onclick="window.location.href='/cv/'">show CV</button>

@@ -1,11 +1,11 @@
 {% include base_path %}
 
 <li>
-    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-    <ul>
-        {%- assign venues = post.venues | split: ";;" -%}
-        {%- for venue in venues -%}
-            <li>{{ venue }}</li>
-        {%- endfor -%}
-    </ul>
+  <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+  <ul>
+    {% assign venues_miro = post.venues | where: "my_presentation", "yes" %}
+    {%- for venue in venues_miro -%}
+    <li>{{ venue.name }}</li>
+    {%- endfor -%}
+  </ul>
 </li>

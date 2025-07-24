@@ -36,9 +36,13 @@ The complete thesis is available [here](/files/2019_Miro_Haller_SGX_Accurate_Tim
 
 ## Frontal Attack
 
-This thesis led to the USENIX paper [Frontal Attack](/publication/2021/08/frontal-attack).
+My advisors continued this project and made it into a USENIX Security paper called [Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](/publication/2021/08/frontal-attack).
 
 The source code of a proof of concept implementation of the Frontal attack is published [here](https://github.com/dn0sar/frontal_poc) and includes part of the code of this thesis.
+
+Here is Ivan Puddu's presentation of the paper:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ti58SJ1ie3A?si=2DAWOEStDNSEjlBu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Acknowledgement
 

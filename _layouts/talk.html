@@ -43,6 +43,34 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+        {% if page.venues %}
+        <h2 id="slides">Slides</h2>
+          <ul>
+            {% for venue in page.venues %}
+            {% if venue.slides %}
+            <li>
+              {{ venue.name }}
+              {%- if venue.comment %}
+                ({{ venue.comment }})
+              {%- endif -%}: 
+              <i class="fa fa-desktop icon-color" aria-hidden="true"></i>
+              <a href="{{ venue.slides }}">slides</a>,
+              {% if venue.youtube %}
+                <i class="fa fa-video icon-color" aria-hidden="true"></i>
+                <a href="{{ venue.youtube }}">recording</a>,
+              {%- endif %}
+              {% if venue.link %}
+                <i class="fa fa-link icon-color" aria-hidden="true"></i>
+                <a href="{{ venue.link }}">external link</a>,
+              {%- endif %}
+              {% if venue.my_presentation != 'yes' %}
+                <i>presented by co-author,</i>
+              {% endif %}
+            </li>
+            {% endif %}
+            {% endfor %}
+        {% endif %}
       </section>
 
       <footer class="page__meta">

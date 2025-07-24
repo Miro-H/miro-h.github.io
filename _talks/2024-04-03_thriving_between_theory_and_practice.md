@@ -1,14 +1,19 @@
 ---
 title: "Thriving in between theory and practice: How applied cryptography bridges the gap"
+date: 2024-04-03
 collection: talks
 type: "Talk"
-permalink: /talks/2024/04/thriving-between-theory-and-practice
-venues: "Crypto Reading Club at NIST;;Zurich Information Security & Privacy Center at ETH Zurich"
-date: 2024-04-03
-location: "NIST"
+permalink: /talks/2024/04/thriving-gap
+short_desc: Matilda Backendal and I were invited to give this talk at the NIST CRClub on where the gap between theory and practice occurs in applied cryptography.
+venues:
+  - name: Crypto Reading Club at NIST
+    my_presentation: 'yes'
+    link: https://csrc.nist.gov/presentations/2024/crclub-2024-04-03
+    comment: co-presented with Matilda Backendal
+  - name: Zurich Information Security & Privacy Center at ETH Zurich
+    my_presentation: 'yes'
+    comment: co-presented with Matilda Backendal
 ---
-
-Matilda Backendal and I were invited to give this talk at the NIST CRClub on where the gap between theory and practice occurs.
 
 ## Abstract
 Our abstract from the [talk announcement](https://csrc.nist.gov/presentations/2024/crclub-2024-04-03):
